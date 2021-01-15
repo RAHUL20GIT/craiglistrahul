@@ -22,7 +22,7 @@ cffi==1.14.3
 chainer==7.2.0
 chainercv2==0.0.55
 chardet==3.0.4
-ciphey==5.3.2
+ciphey==4.2.1
 cipheycore==0.2.9
 cipheydists==0.3.23
 click==7.1.2
