@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 style="text-align:center">{{search|title}}</h2>
+<div class="row">
+{% for f in final_post %}
+
+    <div class="col s4" >
+      <div class="card" style="color:#01579b">
+        <div class="card-image">
+          <img src="{{f.2}}">
+          <span class="card-title"></span>
+        </div>
+        <div class="card-content">
+          <p>{{f.0}}</p>
+        </div>
+        <div class="card-action">
+          <a href={{f.1}}>Check me out!!</a>
+        </div>
+      </div>
+    </div>
+
+
+
+{% endfor %}
+  </div>
+{% endblock content %}
